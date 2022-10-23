@@ -1,9 +1,17 @@
+using GoodProduct.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+builder.Services.AddDbContext<_dbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("default"));
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
