@@ -7,6 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\images\arrival-bg.jpg" />
+    <None Include="wwwroot\css\images\arrival-bg.png" />
+    <None Include="wwwroot\css\images\client.jpg" />
+    <None Include="wwwroot\css\images\favicon.png" />
+    <None Include="wwwroot\css\images\logo.png" />
+    <None Include="wwwroot\css\images\p1.png" />
+    <None Include="wwwroot\css\images\p10.png" />
+    <None Include="wwwroot\css\images\p11.png" />
+    <None Include="wwwroot\css\images\p12.png" />
+    <None Include="wwwroot\css\images\p2.png" />
+    <None Include="wwwroot\css\images\p3.png" />
+    <None Include="wwwroot\css\images\p4.png" />
+    <None Include="wwwroot\css\images\p5.png" />
+    <None Include="wwwroot\css\images\p6.png" />
+    <None Include="wwwroot\css\images\p7.png" />
+    <None Include="wwwroot\css\images\p8.png" />
+    <None Include="wwwroot\css\images\p9.png" />
+    <None Include="wwwroot\css\images\slider-bg.jpg" />
     <None Include="wwwroot\js\bootstrap.js" />
     <None Include="wwwroot\js\custom.js" />
     <None Include="wwwroot\js\jquery-3.4.1.min.js" />
@@ -14,24 +32,6 @@
     <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
     <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
     <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
-    <None Include="wwwroot\images\arrival-bg.jpg" />
-    <None Include="wwwroot\images\arrival-bg.png" />
-    <None Include="wwwroot\images\client.jpg" />
-    <None Include="wwwroot\images\favicon.png" />
-    <None Include="wwwroot\images\logo.png" />
-    <None Include="wwwroot\images\p1.png" />
-    <None Include="wwwroot\images\p10.png" />
-    <None Include="wwwroot\images\p11.png" />
-    <None Include="wwwroot\images\p12.png" />
-    <None Include="wwwroot\images\p2.png" />
-    <None Include="wwwroot\images\p3.png" />
-    <None Include="wwwroot\images\p4.png" />
-    <None Include="wwwroot\images\p5.png" />
-    <None Include="wwwroot\images\p6.png" />
-    <None Include="wwwroot\images\p7.png" />
-    <None Include="wwwroot\images\p8.png" />
-    <None Include="wwwroot\images\p9.png" />
-    <None Include="wwwroot\images\slider-bg.jpg" />
   </ItemGroup>
 
 </Project>
