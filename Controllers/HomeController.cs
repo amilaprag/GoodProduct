@@ -18,9 +18,9 @@ namespace GoodProduct.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
-            return View();
+            return View("About");
         }
 
         public IActionResult Contact()
@@ -36,6 +36,11 @@ namespace GoodProduct.Controllers
         public IActionResult Products()
         {
             return View("Products");
+        }
+
+        public IActionResult Blog()
+        {
+            return View("Blog");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
